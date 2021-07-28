@@ -1,0 +1,31 @@
+.main-div{
+   text-align: center;
+   margin-top: 20px;
+}
+#list{
+    text-align: center;
+}
+
+.list-item{
+    cursor: pointer;
+    background-color: rgb(181, 219, 123);
+  margin-top: 2px;
+  width: 176px;
+  margin-left: 584px;
+    
+   
+}
+@media only screen and (max-width: 736px) {
+    .list-item{
+    cursor: pointer;
+    background-color: rgb(181, 219, 123);
+  margin-top: 2px;
+  width: 176px;
+  margin-left: 83px;}
+
+ 
+}
+.list-item:hover{
+    color: red;
+    text-decoration: line-through;
+}
